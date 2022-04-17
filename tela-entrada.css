@@ -1,0 +1,66 @@
+.tela-entrada {
+    height: 720px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    z-index: 2;
+    width: 414px;
+    height: 100%;
+    opacity: 0.99;
+    position: fixed;
+}
+
+.logo {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.logo img {
+    width: 140px;
+    height: 100px;
+}
+
+.dig-nome {
+    width: 270px;
+    height: 60px;
+    border: 1px solid #D7D7D7;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #AEAEAE;
+
+}
+
+.entrar {
+    height: 45px;
+    width: 130px;
+    background-color: #e7e7e7;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #696969;
+    border-radius: 10px;
+}
+
+.entrar:hover {
+    cursor: pointer;
+}
