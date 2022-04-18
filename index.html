@@ -13,25 +13,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-
+    
 </head>
 
 <body>
-    <!-- <div class="tela-entrada">
-        <div class="logo">
-            <img src="/imagens/uolbatepapo.jpg" alt="">
-        </div>
-        <div class="dig-nome ">Digite seu nome</div>
-        <div class="entrar" onclick="enter()">Entrar</div>    
-    </div> -->
-
-
     <div class="fundo">
         <div class="topo">
             <img src="/imagens/uolbatepapo.jpg" alt="">
             <ion-icon name="people-sharp"></ion-icon>
         </div>
-        <ul>
+        <ul class="mensagens">
 
         </ul>
         <div class="inferior">
@@ -41,6 +32,9 @@
     </div>
 
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://mock-api.driven.com.br/api/v6/uol/participants"></script>
+    <script src="https://mock-api.driven.com.br/api/v6/uol/messages"></script>
     <script src="script.js"></script>
 </body>
 </html>
