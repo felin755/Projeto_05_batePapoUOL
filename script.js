@@ -9,8 +9,9 @@ const usuario = {
 }
 let promise = axios.post("https://mock-api.driven.com.br/api/v6/uol/participants",usuario)
 promise.then()
+promise.catch(logarNovamente)
 
-setInterval(pegarMsg,3000)
+setInterval(pegarMsg,1000)
 setInterval(manterLogado,5000)
 
 let enter = document.querySelector(".digite") 
@@ -19,6 +20,7 @@ enter.addEventListener("keyup", function (event) {
         envioMsg()
     }
 })
+
 
 function logarNovamente() {
     window.location.reload()
@@ -72,6 +74,7 @@ function renderizarMsg () {
         </div>
         </li>`
         }
+        
         
     }
     ulMsg.scrollIntoView(false)

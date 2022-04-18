@@ -1,7 +1,7 @@
 .fundo {
     height: 667px;
     width: 414px;
-    background-color: #E5E5E5;
+    
     
     
 }
@@ -71,6 +71,7 @@
 .mensagens {
     padding-bottom: 90px;
     padding-top: 85px;
+    background-color: #E5E5E5
 }
 
 .status {
@@ -92,7 +93,7 @@
 }
 
 .message {
-    background-color: white;
+    
     width: 100%;
     color: #000000;
     font-family: 'Roboto';
